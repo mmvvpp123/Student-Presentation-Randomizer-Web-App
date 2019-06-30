@@ -15,8 +15,5 @@
     <c:forEach begin="0" end="${numberOfStudents}" var="i">
         <c:out value="${timeSlots[i]} ${students[i]}"/> <br>
     </c:forEach>
-<%--    <c:forEach items="${students}" var="element">--%>
-<%--        ${element} <br/>--%>
-<%--    </c:forEach>--%>
 </body>
 </html>
